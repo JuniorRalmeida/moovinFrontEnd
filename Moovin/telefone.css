@@ -1,0 +1,32 @@
+#phone, #whatsApp{
+	border: none;
+	background: none;
+	cursor: pointer;
+	position: absolute;
+	top: 37%;
+}
+
+#phone{
+	left: 25%;
+}
+#whatsApp{
+	left: 60%;
+}
+
+header{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+}
+
+@media screen and (max-width:550px){
+	#whatsApp { left:60%;}
+	#phone    { left:10% }    
+}
+@media screen and (max-width:499px){
+	#whatsApp { left:60%; font-size: 10px}
+	#phone    { left:4%; font-size: 10px}    
+}
